@@ -1,0 +1,25 @@
+{
+  "name": "delgado",
+  "version": "0.1.0",
+  "description": "Delgado is your functional handyman.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsbites/delgado.git"
+  },
+  "keywords": [
+    "functional",
+    "functional",
+    "programming",
+    "utilities"
+  ],
+  "author": "Volkan Özçelik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsbites/delgado/issues"
+  },
+  "homepage": "https://github.com/jsbites/delgado#readme"
+}
