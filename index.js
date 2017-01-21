@@ -7,4 +7,7 @@ const decorate = ( ...fns ) => ( ...args ) => {
     return result;
 };
 
+const noop = () => {};
+
 exports.decorate = decorate;
+exports.noop = noop;
