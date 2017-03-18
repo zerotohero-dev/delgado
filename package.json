@@ -1,15 +1,12 @@
 {
   "name": "delgado",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Delgado is your functional handyman.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jsbites/delgado.git"
-  },
+  "repository": "git+https://github.com/jsbites/delgado.git",
   "keywords": [
     "functional",
     "functional",
