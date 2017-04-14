@@ -9,5 +9,13 @@ const decorate = ( ...fns ) => ( ...args ) => {
 
 const noop = () => {};
 
-exports.decorate = decorate;
-exports.noop = noop;
+const invert = ( fn ) => ( ...args ) => !fn( ...args );
+
+const identity = ( x ) => x;
+
+module.exports = {
+    identity,
+    invert,
+    decorate,
+    noop
+};
