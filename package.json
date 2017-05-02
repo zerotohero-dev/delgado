@@ -1,6 +1,6 @@
 {
   "name": "delgado",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Delgado is your functional handyman.",
   "main": "index.js",
   "scripts": {

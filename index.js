@@ -15,9 +15,9 @@ const invert = ( fn ) => ( ...args ) => !fn( ...args );
 
 const box = ( x ) => () => x;
 
-const toFunction = ( x ) => typeof x === 'function' ? x : box( x );
+const toFunction = ( x ) => typeof x === 'function' ? x : identity;
 
-const toObject = ( x ) => typeof x === 'object' ? x : { __ref: x };
+const toObject = ( x ) => typeof x === 'object' ? x : {};
 
 module.exports = {
     box,
