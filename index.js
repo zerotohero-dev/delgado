@@ -9,13 +9,22 @@ const decorate = ( ...fns ) => ( ...args ) => {
 
 const noop = () => {};
 
-const invert = ( fn ) => ( ...args ) => !fn( ...args );
-
 const identity = ( x ) => x;
 
+const invert = ( fn ) => ( ...args ) => !fn( ...args );
+
+const box = ( x ) => () => x;
+
+const toFunction = ( x ) => if typeof x === 'function' ? x : box( x );
+
+const toObject = ( x ) => if typeof x === 'object' ? x : { __ref: x };
+
 module.exports = {
+    box,
     identity,
     invert,
     decorate,
-    noop
+    noop,
+    toFunction,
+    toObject
 };
