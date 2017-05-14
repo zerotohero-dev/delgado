@@ -7,6 +7,12 @@ const decorate = ( ...fns ) => ( ...args ) => {
     return result;
 };
 
+const returnTrue = () => true;
+
+const returnFalse = () => false;
+
+const returnNull = () => null;
+
 const noop = () => {};
 
 const identity = ( x ) => x;
@@ -26,5 +32,8 @@ module.exports = {
     decorate,
     noop,
     toFunction,
-    toObject
+    toObject,
+    returnTrue,
+    returnFalse,
+    returnNull
 };
