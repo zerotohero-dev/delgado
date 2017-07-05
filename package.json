@@ -11,12 +11,21 @@
     "functional",
     "functional",
     "programming",
-    "utilities"
+    "utilities",
+    "helper",
+    "vidcast",
+    "videocast",
+    "videos",
+    "tutorials",
+    "javascript",
+    "education",
+    "learning",
+    "screencast"    
   ],
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsbites/delgado/issues"
   },
-  "homepage": "https://github.com/jsbites/delgado#readme"
+  "homepage": "https://bytesized.tv/"
 }
