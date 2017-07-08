@@ -1,6 +1,6 @@
 {
   "name": "delgado",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Delgado is your functional handyman.",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,27 @@
   },
   "repository": "git+https://github.com/jsbites/delgado.git",
   "keywords": [
+    "byte-sized javascript",
+    "byte-sized",
+    "bytesized.tv",
+    "demos",
+    "education",
+    "functional programming",
     "functional",
-    "functional",
-    "programming",
-    "utilities"
+    "javascript",
+    "learning",
+    "podcast",
+    "screencast",
+    "tutorials",
+    "utilities",
+    "vidcast",
+    "videocast",
+    "videos"
   ],
   "author": "Volkan Özçelik <me@volkan.io> (https://volkan.io/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsbites/delgado/issues"
   },
-  "homepage": "https://github.com/jsbites/delgado#readme"
+  "homepage": "https://bytesized.tv/"
 }

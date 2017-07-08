@@ -7,19 +7,23 @@ const decorate = ( ...fns ) => ( ...args ) => {
     return result;
 };
 
-const returnTrue = () => true;
+const box = ( x ) => () => x;
 
-const returnFalse = () => false;
+const returnTrue = () => box( true );
 
-const returnNull = () => null;
+const returnFalse = () => box( false );
+
+const returnNull = () => box( null );
+
+const returnZero = () => box( 0 );
+
+const returnUndefined = () => box();
 
 const noop = () => {};
 
 const identity = ( x ) => x;
 
 const invert = ( fn ) => ( ...args ) => !fn( ...args );
-
-const box = ( x ) => () => x;
 
 const toFunction = ( x ) => typeof x === 'function' ? x : identity;
 
@@ -35,5 +39,7 @@ module.exports = {
     toObject,
     returnTrue,
     returnFalse,
-    returnNull
+    returnNull,
+    returnZero,
+    returnUndefined
 };
