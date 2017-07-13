@@ -19,6 +19,8 @@ const returnZero = () => box( 0 );
 
 const returnUndefined = () => box();
 
+const returnObject = () => ( {} );
+
 const noop = () => {};
 
 const identity = ( x ) => x;
@@ -41,5 +43,6 @@ module.exports = {
     returnFalse,
     returnNull,
     returnZero,
+    returnObject,
     returnUndefined
 };
